@@ -20,28 +20,29 @@
         <div class="contact-box">
             <div class="contact-left">
                 <h3>Sent your request</h3>
-                <form>
+                <form action="https://formsubmit.co/amoskyalo927@gmail.com" method="POST">
                     <div class="input-row">
                         <div class="input-group">
                             <label>Name</label>
-                            <input type="name" placeholder="Your name">
+                            <input type="name" placeholder="Your name" required>
                         </div>
                         <div class="input-group">
                             <label>Phone</label>
-                            <input type="name" placeholder="e.g 0712098745">
+                            <input type="number" placeholder="e.g 0712098745" required>
                         </div>
                     </div>
                     <div class="input-row">
                         <div class="input-group">
                             <label>Email</label>
-                            <input type="name" placeholder="Email">
+                            <input type="email" placeholder="Email" required>
                         </div>
                         <div class="input-group">
                             <label>Subject</label>
                             <input type="name" placeholder="Product Demo">
                         </div>
                     </div>
-
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://richkiddevelopers.netlify.com/thanks.html">
                     <label>Message</label>
                     <textarea rows="5" placeholder="Your message"></textarea>
                     <button type="submit">Send</button>

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color: tomato;
+    font-family: 'Irish Grover', cursive;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    margin-top: 50%;
+}
+
+i{
+    margin: 1.2rem;
+    font-size: 1.5rem;
+}
