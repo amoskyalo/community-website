@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(pexels-vlada-karpovich-4050315.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+.regform{
+    width: 800px;
+    background-color: rgb(93, 93, 99);
+    margin: auto;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+.regform:hover{
+    background-color: blue;
+}
+.mane{
+    background-color: rgb(170, 170, 230);
+    width: 800px;
+    margin: auto;
+   
+}
+form{
+    padding: 10px;
+}
+#name{
+    width: 100%;
+    /* height: 100px; */
+}
+.First_name{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 100px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+}
+.firstname{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.last{
+    text-align: center;
+}
+.First_name2{
+    padding: 20px;
+    line-height: 20px;
+    color: rgb(233, 230, 230);
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+.option{
+    position: relative;
+    padding: 5px;
+    bottom: 10px;
+    border-radius: 6px;
+}
+#student{
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: 300;
+}
+.radio{
+    padding-top: 10px;
+    font-size: 14px;
+}
+.button{
+    padding-top: 15px;
+}
+button{
+    width: 100px;
+    border: solid black;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 800;
+    color: black;
+    background-color: brown;
+}
+button:hover{
+    background: blanchedalmond;
+}
+@media(max-width: 600px){
+   *{
+       overflow: hidden;
+   }
+    
+    .regform{
+        width: 400px;
+        padding: 5px 0px 5px 0px;
+        
+    }
+    .mane{
+        width: 400px;
+       
+    }
+    form{
+        padding: 5px;
+       
+    }
+    #name{
+        width: 96%;
+        display: flex;
+        flex-direction: column;
+    }
+    .First_name{
+        /* margin-left: 20px; */
+        margin-top: 30px;
+        width: 100px;
+        font-size: 16px;
+
+    }
+
+    .firstname {
+        font-size: 10px;
+        line-height: 40px;
+    }
+
+
+        
+}  
+
+/* <----foter-----> */
+

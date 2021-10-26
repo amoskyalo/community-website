@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url(pexels-patrick-leung-9714554.jpg);
+    font-size: 14px;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+    
+}
+/* .container h1 p{
+    text-align: center; */
+
+.contact-box{
+    background: #fff;
+    display: flex; 
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #1c00b5;
+    color: #fff;
+}
+h1{
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+.container p{
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid#ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid#ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #000000;
+}
+button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,1);
+    /* text-align: center; */
+}
+.contact-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding: 20px;
+}
+tr td{
+    padding-top: 20px ;
+}
+@media(max-width: 700px){
+    body{
+        font-size: 10px;
+    }
+    .contact-box{
+        background: #fff;
+        display: block;
+
+    }
+    .contact-left{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+/* <!-------Footer------ --> */
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color:rgba(111, 82, 241, 0.7);
+}
+.futa{
+    color: rgb(14, 1, 1);
+    font-weight: 600;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 17px;
+}
+.futa h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fab{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
